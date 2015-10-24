@@ -14,8 +14,8 @@ dim = 8
 valids = []
 
 # json board
-boardstr = sys.argv[3]
-boardstr = json.dumps(board)
+boardstr = sys.argv[2]
+boardstr = json.loads(boardstr)
 
 
 # python board
@@ -23,7 +23,7 @@ squares = boardstr['squares']
 board = []
 boardstart = 0
 for i in range(dim):
-    board[i] = squares[0:dim]
+    board.append(squares[boardstart:dim+boardstart])
     boardstart = boardstart + dim
 
 
@@ -45,23 +45,23 @@ def solve():
     for x in range(8):
         for y in range(8):
             if board[x][y] == '-':
-                empties.add (x, y)
+                empties.append((x, y))
     
     for pos in empties:   # pos is an (x y) pair
         # if it's touching other piece
         for i in range(3):
             for j in range(3):
-                candidatex = pos[0] + i
-                candidatey = pos[1] + j
+                candidatex = pos[0] + i-1
+                candidatey = pos[1] + j-1
 
                 # edge case (literally!)
-                if candidatex == -1 or candidatex == 8:
+                if candidatex < 0 or candidatex > 7:
                     continue
-                if candidatey == -1 or candidatex == 8:
+                if candidatey < 0 or candidatey > 7:
                     continue
                 
                 # if candidate is same as pos
-                if (candidatex, cadidatey) == pos:
+                if (candidatex, candidatey) == pos:
                     continue
 
                 # does it touch any pieces
@@ -84,7 +84,6 @@ def solve():
                 break
             if (board[vx][vy] is them):
                 score = score + localscore
-                firstrun = False
                 continue
             else:   # it's blank
                 break
@@ -95,12 +94,12 @@ def solve():
         while vx < 8:
             localscore = 0
             vx = vx + 1
+
             if (board[vx][vy] is us):
                 score = score + localscore
                 break
             if (board[vx][vy] is them):
                 score = score + localscore
-                firstrun = False
                 continue
             else:   # it's blank
                 break
@@ -116,7 +115,6 @@ def solve():
                 break
             if (board[vx][vy] is them):
                 score = score + localscore
-                firstrun = False
                 continue
             else:   # it's blank
                 break
@@ -132,7 +130,6 @@ def solve():
                 break
             if (board[vx][vy] is them):
                 score = score + localscore
-                firstrun = False
                 continue
             else:   # it's blank
                 break
