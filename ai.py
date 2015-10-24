@@ -178,13 +178,17 @@ def solve():
     for move in valids:
         if (move[2] > best):
             bestmove = move
-    
+   
+    print ("%d %d" % (bestmove[0], bestmove[1]))
+ 
     # EXECUTE!!!!!!!!!!!!
     sys.exit(conv(bestmove[0], bestmove[1]) )
 
 
 # For return codes
-def conv(x, y):
-    return (x * 8 + y) - 1
+def conv(y, x):
+    ret = ((y * 8) + x)
+    print(ret)
+    return ret
 
 solve()
