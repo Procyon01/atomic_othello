@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import argparse
+import random
 import time
 import json
 import sys
@@ -258,19 +258,42 @@ def solve():
     for move in valids:
         print(move)
 
-    # make the best move
+    
+# make the best move
+def choose_optimized():
     best = 0
     bestmove = ()
+    corner = False
+    edge = False
 
     for move in valids:
-        if (move[2] > best):
-#            best = move[2]
+
+        # if it's a corner and better score
+        if is_corner(move[0], move[1]):
+            if (move[2] > best):
+                bestmove = move
+                corner = True
+        
+        # if it's an edge and we have no corner better score
+        if is_edge(move[0], move[1]):
+            if corner == False:
+                if (move[2] > best):
+                    bestmove = move
+                    edge = True
+
+        # if neither, take best score
+        if (move[2] > best and corner == False and edge == False):
+            best = move[2]
             bestmove = move
-   
-    print ("%d %d" % (bestmove[0], bestmove[1]))
- 
-    # EXECUTE!!!!!!!!!!!!
-    sys.exit(conv(bestmove[0], bestmove[1]) )
+     
+    sys.exit( conv(bestmove[0], bestmove[1]) )
+
+
+def is_edge(y, x):
+    return (x == 0 or x == 7 or y == 0 or y == 7)
+
+def is_corner(y, x):
+    return ((y, x) == (0, 0) or (y, x) == (0, 7) or (y, x) == (7, 0) or (y, x) == (7, 7))
 
 
 # For return codes
@@ -279,4 +302,7 @@ def conv(y, x):
     print(ret)
     return ret
 
+
+# Let's go!
 solve()
+choose_optimized()

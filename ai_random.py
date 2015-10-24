@@ -258,8 +258,9 @@ def solve():
     for move in valids:
         print(move)
 
-    """
-    # make the best move
+    
+# make the best move
+def choose_optimal():
     best = 0
     bestmove = ()
 
@@ -267,24 +268,24 @@ def solve():
         if (move[2] > best):
             best = move[2]
             bestmove = move
+    
+    sys.exit(conv(bestmove[0], bestmove[1]) )
 
-    """
 
-
-    # make a kooky move
+# make a kooky move
+def choose_random():
     move = ()
     
-    print(len(valids))
-    
-    rng = random.random()
-    rn = rng(len(valids))
-    rn = rn - 1
-    move = valids[rn]
+    move = valids[random.randint(0, len(valids)-1)]
    
-    print ("%d %d" % (bestmove[0], bestmove[1]))
- 
-    # EXECUTE!!!!!!!!!!!!
-    sys.exit(conv(bestmove[0], bestmove[1]) )
+    sys.exit(conv(move[0], move[1]) )
+
+
+def is_edge(y, x):
+    return (x == 0 or x == 7 or y == 0 or y == 7)
+
+def is_corner(y, x):
+    return ((y, x) == (0, 0) or (y, x) == (0, 7) or (y, x) == (7, 0) or (y, x) == (7, 7))
 
 
 # For return codes
@@ -293,4 +294,7 @@ def conv(y, x):
     print(ret)
     return ret
 
+
+# Let's go!
 solve()
+choose_random()
