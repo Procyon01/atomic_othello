@@ -9,6 +9,9 @@ timelimit = sys.argv[7]
 start_time = time.time()
 '''
 
+for i in sys.argv:
+    print i
+
 dim = 8
 
 valids = []
@@ -28,7 +31,7 @@ for i in range(dim):
 
 
 # our color and opponent
-us = sys.argv[5]
+us = sys.argv[4]
 them = ''
 if us == 'black':
     us = u'b'
@@ -36,6 +39,9 @@ if us == 'black':
 else: 
     us = u'w'
     them = u'b'
+
+print us
+
 
 # Valid list of moves
 def solve():
@@ -81,8 +87,9 @@ def solve():
         vy = pos[0]
         vx = pos[1]
         # horizontal left
+        vx = vx - 1
+        localscore = 0
         while vx > 0:
-            localscore = 0
             if (board[vy][vx] == us):
                 print "it's us"
                 score = score + localscore
@@ -100,8 +107,9 @@ def solve():
         vy = pos[0]
         vx = pos[1]
         # horizontal right
+        vx = vx + 1
+        localscore = 0
         while vx < 8:
-            localscore = 0
             if (board[vy][vx] == us):
                 print "it's us"
                 score = score + localscore
@@ -119,8 +127,9 @@ def solve():
         vy = pos[0]
         vx = pos[1]
         # vertical up
+        vy = vy - 1
+        localscore = 0
         while vy > 0:
-            localscore = 0
             if (board[vy][vx] == us):
                 print "it's us"
                 score = score + localscore
@@ -138,8 +147,9 @@ def solve():
         vy = pos[0]
         vx = pos[1]
         # vertical down
+        vy = vy + 1
+        localscore = 0
         while vy < 8:
-            localscore = 0
             if (board[vy][vx] == us):
                 print "it's us"
                 score = score + localscore
