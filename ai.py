@@ -31,15 +31,11 @@ for i in range(dim):
 us = sys.argv[5]
 them = ''
 if us == 'black':
-    us = 'b'
-    them = 'w'
+    us = u'b'
+    them = u'w'
 else: 
-    us = 'w'
-    them = 'b'
-
-print us
-print them
-
+    us = u'w'
+    them = u'b'
 
 # Valid list of moves
 def solve():
@@ -47,15 +43,15 @@ def solve():
     candidates = []
     for x in range(8):
         for y in range(8):
-            if board[x][y] == '-':
-                empties.append((x, y))
+            if board[y][x] == '-':
+                empties.append((y, x))
     
     for pos in empties:   # pos is an (x y) pair
         # if it's touching other piece
         for i in range(3):
-            nx = pos[0] + i-1
+            ny = pos[0] + i-1
             for j in range(3):
-                ny = pos[1] + j-1
+                nx = pos[1] + j-1
 
                 # edge case (literally!)
                 if nx < 0 or nx > 7:
@@ -64,12 +60,12 @@ def solve():
                     continue
                 
                 # if candidate is same as pos
-                if (nx, ny) == pos:
+                if (ny, nx) == pos:
                     continue
 
                 # does it touch any pieces
                 #print "is board[%d][%d] not %s?" % (nx, ny, board[nx][ny])
-                if board[nx][ny] == u'w' or board[nx][ny] == u'b':
+                if board[ny][nx] == u'w' or board[ny][nx] == u'b':
                     if (pos[0], pos[1]) not in candidates:
                         candidates.append( (pos[0], pos[1]) )
 
@@ -78,77 +74,93 @@ def solve():
 
     # check to see if we get points
     for pos in candidates:
-       
+      
+        print '' 
         score = 0
 
-        vx = pos[0]
-        vy = pos[1]
+        vy = pos[0]
+        vx = pos[1]
         # horizontal left
         while vx > 0:
             localscore = 0
-            if (board[vx][vy] == us):
+            if (board[vy][vx] == us):
+                print "it's us"
                 score = score + localscore
                 print localscore
                 break
-            if (board[vx][vy] == them):
+            if (board[vy][vx] == them):
+                print "it's them"
                 localscore = localscore + 1
                 vx = vx - 1
                 continue
             else:   # it's blank
+                print "it's blank"
                 break
         
-        vx = pos[0]
-        vy = pos[1]
+        vy = pos[0]
+        vx = pos[1]
         # horizontal right
         while vx < 8:
             localscore = 0
-            if (board[vx][vy] == us):
+            if (board[vy][vx] == us):
+                print "it's us"
                 score = score + localscore
                 print localscore
                 break
-            if (board[vx][vy] == them):
+            if (board[vy][vx] == them):
+                print "it's them"
                 localscore = localscore + 1
                 vx = vx + 1
                 continue
             else:   # it's blank
+                print "it's blank"
                 break
         
-        vx = pos[0]
-        vy = pos[1]
+        vy = pos[0]
+        vx = pos[1]
         # vertical up
         while vy > 0:
             localscore = 0
-            if (board[vx][vy] == us):
+            if (board[vy][vx] == us):
+                print "it's us"
                 score = score + localscore
                 print localscore
                 break
-            if (board[vx][vy] == them):
+            if (board[vy][vx] == them):
+                print "it's them"
                 localscore = localscore + 1
                 vy = vy - 1
                 continue
             else:   # it's blank
+                print "it's blank"
                 break
         
-        vx = pos[0]
-        vy = pos[1]
+        vy = pos[0]
+        vx = pos[1]
         # vertical down
         while vy < 8:
             localscore = 0
-            if (board[vx][vy] == us):
+            if (board[vy][vx] == us):
+                print "it's us"
                 score = score + localscore
                 print localscore
                 break
-            if (board[vx][vy] == them):
+            if (board[vy][vx] == them):
+                print "it's them"
                 localscore = localscore + 1
-                vy = vy - 1
+                vy = vy + 1
                 continue
             else:   # it's blank
+                print "it's blank"
                 break
         
         if (score > 0):
             valids.append( (pos[0], pos[1], score) )
 
     
+    for move in valids:
+        print(move)
+
     # make the best move
     best = 0
     bestmove = ()
