@@ -1,12 +1,18 @@
+import argparse
 import json
 import sys
 
-inputstr = sys.argv[1]
-inputstr = json.dumps(board)
+boardstr = sys.argv[3]
+boardstr = json.dumps(board)
+
+color = sys.argv[5]
+if color == 'black':
+    color = 'b'
+else color = 'w'
 
 dim = 8
 
-squares = inputstr['squares']
+squares = boardstr['squares']
 board = []
 boardstart = 0
 for i in range(dim):
@@ -14,10 +20,13 @@ for i in range(dim):
     boardstart = boardstart + dim
 
 
-def is_valid():
+def is_valid(x, y):
     return
 
 def solve():
+    for i in board:
+        for square in i:
+            if  
 
     # return the move
     exit(move)
