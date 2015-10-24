@@ -37,6 +37,9 @@ else:
     us = 'w'
     them = 'b'
 
+print us
+print them
+
 
 # Valid list of moves
 def solve():
@@ -50,27 +53,32 @@ def solve():
     for pos in empties:   # pos is an (x y) pair
         # if it's touching other piece
         for i in range(3):
+            nx = pos[0] + i-1
             for j in range(3):
-                candidatex = pos[0] + i-1
-                candidatey = pos[1] + j-1
+                ny = pos[1] + j-1
 
                 # edge case (literally!)
-                if candidatex < 0 or candidatex > 7:
+                if nx < 0 or nx > 7:
                     continue
-                if candidatey < 0 or candidatey > 7:
+                if ny < 0 or ny > 7:
                     continue
                 
                 # if candidate is same as pos
-                if (candidatex, candidatey) == pos:
+                if (nx, ny) == pos:
                     continue
 
                 # does it touch any pieces
-                if board[candidatex][candidatey] is not '-':
-                    candidates.append( (candidatex, candidatey) )
+                #print "is board[%d][%d] not %s?" % (nx, ny, board[nx][ny])
+                if board[nx][ny] == u'w' or board[nx][ny] == u'b':
+                    if (pos[0], pos[1]) not in candidates:
+                        candidates.append( (pos[0], pos[1]) )
+
+    for can in candidates:
+        print(can)
 
     # check to see if we get points
     for pos in candidates:
-        
+       
         score = 0
 
         vx = pos[0]
@@ -78,12 +86,13 @@ def solve():
         # horizontal left
         while vx > 0:
             localscore = 0
-            vx = vx - 1
-            if (board[vx][vy] is us):
+            if (board[vx][vy] == us):
                 score = score + localscore
+                print localscore
                 break
-            if (board[vx][vy] is them):
-                score = score + localscore
+            if (board[vx][vy] == them):
+                localscore = localscore + 1
+                vx = vx - 1
                 continue
             else:   # it's blank
                 break
@@ -93,13 +102,13 @@ def solve():
         # horizontal right
         while vx < 8:
             localscore = 0
-            vx = vx + 1
-
-            if (board[vx][vy] is us):
+            if (board[vx][vy] == us):
                 score = score + localscore
+                print localscore
                 break
-            if (board[vx][vy] is them):
-                score = score + localscore
+            if (board[vx][vy] == them):
+                localscore = localscore + 1
+                vx = vx + 1
                 continue
             else:   # it's blank
                 break
@@ -109,12 +118,13 @@ def solve():
         # vertical up
         while vy > 0:
             localscore = 0
-            vy = vy - 1
-            if (board[vx][vy] is us):
+            if (board[vx][vy] == us):
                 score = score + localscore
+                print localscore
                 break
-            if (board[vx][vy] is them):
-                score = score + localscore
+            if (board[vx][vy] == them):
+                localscore = localscore + 1
+                vy = vy - 1
                 continue
             else:   # it's blank
                 break
@@ -124,12 +134,13 @@ def solve():
         # vertical down
         while vy < 8:
             localscore = 0
-            vy = vy - 1
-            if (board[vx][vy] is us):
+            if (board[vx][vy] == us):
                 score = score + localscore
+                print localscore
                 break
-            if (board[vx][vy] is them):
-                score = score + localscore
+            if (board[vx][vy] == them):
+                localscore = localscore + 1
+                vy = vy - 1
                 continue
             else:   # it's blank
                 break
@@ -141,10 +152,11 @@ def solve():
     # make the best move
     best = 0
     bestmove = ()
+
     for move in valids:
         if (move[2] > best):
             bestmove = move
-
+    
     # EXECUTE!!!!!!!!!!!!
     sys.exit(conv(bestmove[0], bestmove[1]) )
 
