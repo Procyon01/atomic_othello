@@ -1,0 +1,859 @@
+
+*** Warning: This project requires Leiningen version 2.0.0 ***
+*** Using version 1.7.1 could cause problems. ***
+
+- Get the latest verison of Leiningen at
+- https://github.com/technomancy/leiningen
+- Or by executing "lein upgrade"
+
+
+Starting game!!!
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b w - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+
+
+
+Move 1 - Black
+----------
+Score
+Black: 4
+White: 1
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b B B - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+
+
+
+Move 2 - White
+----------
+Score
+Black: 3
+White: 3
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b W b - -
+- - - - - W - -
+- - - - - - - -
+- - - - - - - -
+
+
+
+Move 3 - Black
+----------
+Score
+Black: 5
+White: 2
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b w b - -
+- - - - - B - -
+- - - - - B - -
+- - - - - - - -
+
+
+
+Move 4 - White
+----------
+Score
+Black: 4
+White: 4
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b w b - -
+- - - - - W - -
+- - - - - b W -
+- - - - - - - -
+
+
+
+Move 5 - Black
+----------
+Score
+Black: 6
+White: 3
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b w b - -
+- - - - - w - -
+- - - - - b B B
+- - - - - - - -
+
+
+
+Move 6 - White
+----------
+Score
+Black: 5
+White: 5
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b w b - -
+- - - - - w - -
+- - - - - b W b
+- - - - - - - W
+
+
+
+Move 7 - Black
+----------
+Score
+Black: 7
+White: 4
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b B b - -
+- - - - B w - -
+- - - - - b w b
+- - - - - - - w
+
+
+
+Move 8 - White
+----------
+Score
+Black: 6
+White: 6
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b b b - -
+- - - - b w - W
+- - - - - b w W
+- - - - - - - w
+
+
+
+Move 9 - Black
+----------
+Score
+Black: 8
+White: 5
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b b b - -
+- - - - b B B w
+- - - - - b w w
+- - - - - - - w
+
+
+
+Move 10 - White
+----------
+Score
+Black: 7
+White: 7
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b b b W -
+- - - - b b W w
+- - - - - b w w
+- - - - - - - w
+
+
+
+Move 11 - Black
+----------
+Score
+Black: 10
+White: 5
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - -
+- - - b b b B B
+- - - - b b B w
+- - - - - b w w
+- - - - - - - w
+
+
+
+Move 12 - White
+----------
+Score
+Black: 9
+White: 7
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - W
+- - - b b b b W
+- - - - b b b w
+- - - - - b w w
+- - - - - - - w
+
+
+
+Move 13 - Black
+----------
+Score
+Black: 11
+White: 6
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - w
+- - - b b b b w
+- - - - b b b w
+- - - - - b B w
+- - - - - - B w
+
+
+
+Move 14 - White
+----------
+Score
+Black: 9
+White: 9
+----------
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - w b - - w
+- - - b b b b w
+- - - - b b b w
+- - - - - b W w
+- - - - - W W w
+
+
+
+Move 15 - Black
+----------
+Score
+Black: 11
+White: 8
+----------
+- - - - - - - -
+- - - - - - - -
+- - - B - - - -
+- - - B b - - w
+- - - b b b b w
+- - - - b b b w
+- - - - - b w w
+- - - - - w w w
+
+
+
+Move 16 - White
+----------
+Score
+Black: 9
+White: 11
+----------
+- - - - - - - -
+- - - - - - - -
+- - - b - - - -
+- - - b b - W w
+- - - b b b W w
+- - - - b b W w
+- - - - - b w w
+- - - - - w w w
+
+
+
+Move 17 - Black
+----------
+Score
+Black: 11
+White: 10
+----------
+- - - - - - - -
+- - - - - - - -
+- - - b - - - B
+- - - b b - B w
+- - - b b b w w
+- - - - b b w w
+- - - - - b w w
+- - - - - w w w
+
+
+
+Move 18 - White
+----------
+Score
+Black: 10
+White: 12
+----------
+- - - - - - - -
+- - - - - - - W
+- - - b - - - W
+- - - b b - b w
+- - - b b b w w
+- - - - b b w w
+- - - - - b w w
+- - - - - w w w
+
+
+
+Move 19 - White
+----------
+Score
+Black: 9
+White: 14
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - W w
+- - - b b - W w
+- - - b b b w w
+- - - - b b w w
+- - - - - b w w
+- - - - - w w w
+
+
+
+Move 20 - White
+----------
+Score
+Black: 6
+White: 18
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - w w
+- - - b b W w w
+- - - b b W w w
+- - - - b W w w
+- - - - - W w w
+- - - - - w w w
+
+
+
+Move 21 - White
+----------
+Score
+Black: 5
+White: 20
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - w w
+- - - b b w w w
+- - - b b w w w
+- - - - W w w w
+- - - W - w w w
+- - - - - w w w
+
+
+
+Move 22 - Black
+----------
+Score
+Black: 7
+White: 19
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - w w
+- - - b b w w w
+- - - b b w w w
+- - - - B w w w
+- - - w B w w w
+- - - - - w w w
+
+
+
+Move 23 - White
+----------
+Score
+Black: 6
+White: 21
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - w w
+- - - b b w w w
+- - - b b w w w
+- - - - b w w w
+- - - w W w w w
+- - - W - w w w
+
+
+
+Move 24 - Black
+----------
+Score
+Black: 8
+White: 20
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - w w
+- - - b b w w w
+- - - b b w w w
+- - - - b w w w
+- - - w B w w w
+- - - w B w w w
+
+
+
+Move 25 - White
+----------
+Score
+Black: 5
+White: 24
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - w w
+- - - b b w w w
+- - - b W w w w
+- - - W W w w w
+- - - w W w w w
+- - - w b w w w
+
+
+
+Move 26 - Black
+----------
+Score
+Black: 7
+White: 23
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b - - w w
+- - - b b w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - B B b w w w
+
+
+
+Move 27 - White
+----------
+Score
+Black: 6
+White: 25
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b W - w w
+- - - b W w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 28 - Black
+----------
+Score
+Black: 9
+White: 23
+----------
+- - - - - - - -
+- - - - - - - w
+- - - b B B w w
+- - - b B w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 29 - White
+----------
+Score
+Black: 8
+White: 25
+----------
+- - - - - - - -
+- - - - - W - w
+- - - b b W w w
+- - - b b w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 30 - Black
+----------
+Score
+Black: 10
+White: 24
+----------
+- - - - - - - -
+- - - - - w B w
+- - - b b B w w
+- - - b b w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 31 - White
+----------
+Score
+Black: 9
+White: 26
+----------
+- - - - - - W -
+- - - - - w W w
+- - - b b b w w
+- - - b b w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 32 - Black
+----------
+Score
+Black: 11
+White: 25
+----------
+- - - - - - w B
+- - - - - w B w
+- - - b b b w w
+- - - b b w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 33 - White
+----------
+Score
+Black: 10
+White: 27
+----------
+- - - - - W w b
+- - - - - w W w
+- - - b b b w w
+- - - b b w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 34 - Black
+----------
+Score
+Black: 13
+White: 25
+----------
+- - - - B B B b
+- - - - - w w w
+- - - b b b w w
+- - - b b w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 35 - White
+----------
+Score
+Black: 10
+White: 29
+----------
+- - - - b b b b
+- - - - W w w w
+- - - b W W w w
+- - - b W w w w
+- - - b w w w w
+- - - w w w w w
+- - - w w w w w
+- - b b b w w w
+
+
+
+Move 36 - Black
+----------
+Score
+Black: 12
+White: 28
+----------
+- - - - b b b b
+- - - - w w w w
+- - - b w w w w
+- - - b w w w w
+- - - b w w w w
+- - B w w w w w
+- - - B w w w w
+- - b b b w w w
+
+
+
+Move 37 - White
+----------
+Score
+Black: 9
+White: 32
+----------
+- - - - b b b b
+- - - W w w w w
+- - - W w w w w
+- - - W w w w w
+- - - W w w w w
+- - b w w w w w
+- - - b w w w w
+- - b b b w w w
+
+
+
+Move 38 - Black
+----------
+Score
+Black: 15
+White: 27
+----------
+- - - B b b b b
+- - - B w w w w
+- - - B w w w w
+- - - B w w w w
+- - - B w w w w
+- - b B w w w w
+- - - b w w w w
+- - b b b w w w
+
+
+
+Move 39 - White
+----------
+Score
+Black: 13
+White: 30
+----------
+- - - b b b b b
+- - - b w w w w
+- - - b w w w w
+- - - b w w w w
+- - - b w w w w
+- - b W w w w w
+- - W W w w w w
+- - b b b w w w
+
+
+
+Move 40 - Black
+----------
+Score
+Black: 15
+White: 29
+----------
+- - - b b b b b
+- - - b w w w w
+- - - b w w w w
+- - - b w w w w
+- - - b w w w w
+- B b w w w w w
+- - B w w w w w
+- - b b b w w w
+
+
+
+Move 41 - White
+----------
+Score
+Black: 13
+White: 32
+----------
+- - - b b b b b
+- - - b w w w w
+- - - b w w w w
+- - - W w w w w
+- - W W w w w w
+- b b w w w w w
+- - b w w w w w
+- - b b b w w w
+
+
+
+Move 42 - Black
+----------
+Score
+Black: 15
+White: 31
+----------
+- - - b b b b b
+- - - b w w w w
+- - - b w w w w
+- - B w w w w w
+- - B w w w w w
+- b b w w w w w
+- - b w w w w w
+- - b b b w w w
+
+
+
+Move 43 - White
+----------
+Score
+Black: 14
+White: 33
+----------
+- - - b b b b b
+- - - b w w w w
+- - W W w w w w
+- - b w w w w w
+- - b w w w w w
+- b b w w w w w
+- - b w w w w w
+- - b b b w w w
+
+
+
+Move 44 - Black
+----------
+Score
+Black: 16
+White: 32
+----------
+- - - b b b b b
+- - B b w w w w
+- - B w w w w w
+- - b w w w w w
+- - b w w w w w
+- b b w w w w w
+- - b w w w w w
+- - b b b w w w
+
+
+
+Move 45 - White
+----------
+Score
+Black: 15
+White: 34
+----------
+- - W b b b b b
+- - b W w w w w
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- b b w w w w w
+- - b w w w w w
+- - b b b w w w
+
+
+
+Move 46 - Black
+----------
+Score
+Black: 17
+White: 33
+----------
+- B B b b b b b
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- b b w w w w w
+- - b w w w w w
+- - b b b w w w
+
+
+
+Move 47 - White
+----------
+Score
+Black: 13
+White: 38
+----------
+- b b b b b b b
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- b b w w w w w
+- - W w w w w w
+- W W W W w w w
+
+
+
+Move 48 - White
+----------
+Score
+Black: 12
+White: 40
+----------
+- b b b b b b b
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- b W w w w w w
+- W w w w w w w
+- w w w w w w w
+Oh no,  Black  failed to provide a valid move:
+----------
+Score
+Black: 12
+White: 40
+----------
+- b b b b b b b
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- - b w w w w w
+- b w w w w w w
+- w w w w w w w
+- w w w w w w w
+
+----------
+Black moves
+[37 53 55 44 46 39 62 19 23 52 60 58 21 14 7 4 42 3 41 26 10 1]
+White moves
+[45 54 63 47 38 31 61 30 15 22 29 51 59 43 20 13 6 5 12 11 50 34 18 2 57 49]
+----------
+
+Congratulations White! You win!!!
+{:winner :white, :white-score 40, :moves 48, :max-turn-time 7000, :min-turn-time 1500, :remote-strategy {:fn nil}, :black-score 12, :board-history [{:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "w" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "w" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "b" "b" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "w" "b" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "w" "b" "-" "-" "-" "-" "-" "-" "-" "b" "-" "-" "-" "-" "-" "-" "-" "b" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "w" "b" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "-" "-" "-" "-" "b" "w" "-" "-" "-" "-" "-" "-" "-" "-" "-"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "w" "b" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "-" "-" "-" "-" "b" "b" "b" "-" "-" "-" "-" "-" "-" "-" "-"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "w" "b" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "-" "-" "-" "-" "b" "w" "b" "-" "-" "-" "-" "-" "-" "-" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "b" "b" "-" "-" "-" "-" "-" "-" "b" "w" "-" "-" "-" "-" "-" "-" "-" "b" "w" "b" "-" "-" "-" "-" "-" "-" "-" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "b" "b" "-" "-" "-" "-" "-" "-" "b" "w" "-" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "-" "-" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "b" "b" "-" "-" "-" "-" "-" "-" "b" "b" "b" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "-" "-" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "b" "b" "w" "-" "-" "-" "-" "-" "b" "b" "w" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "-" "-" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "-" "-" "b" "b" "b" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "-" "-" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "w" "-" "-" "-" "b" "b" "b" "b" "w" "-" "-" "-" "-" "b" "b" "b" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "-" "-" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "w" "-" "-" "-" "b" "b" "b" "b" "w" "-" "-" "-" "-" "b" "b" "b" "w" "-" "-" "-" "-" "-" "b" "b" "w" "-" "-" "-" "-" "-" "-" "b" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "w" "-" "-" "-" "b" "b" "b" "b" "w" "-" "-" "-" "-" "b" "b" "b" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "b" "-" "-" "-" "-" "-" "-" "-" "b" "b" "-" "-" "w" "-" "-" "-" "b" "b" "b" "b" "w" "-" "-" "-" "-" "b" "b" "b" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "b" "-" "-" "-" "-" "-" "-" "-" "b" "b" "-" "w" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "-" "b" "b" "w" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "b" "-" "-" "-" "b" "-" "-" "-" "b" "b" "-" "b" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "-" "b" "b" "w" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "-" "w" "-" "-" "-" "b" "b" "-" "b" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "-" "b" "b" "w" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "-" "w" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "-" "b" "b" "w" "w" "-" "-" "-" "-" "-" "b" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "-" "b" "w" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "-" "w" "w" "w" "w" "-" "-" "-" "w" "-" "w" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "-" "b" "w" "w" "w" "-" "-" "-" "w" "b" "w" "w" "w" "-" "-" "-" "-" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "-" "b" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "-" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "-" "b" "w" "w" "w" "-" "-" "-" "w" "b" "w" "w" "w" "-" "-" "-" "w" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "-" "-" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "w" "-" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "-" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "-" "w" "b" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "w" "-" "-" "-" "-" "-" "-" "w" "w" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "-" "w" "b" "-" "-" "-" "-" "-" "w" "b" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "-" "w" "w" "b" "-" "-" "-" "-" "-" "w" "w" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "b" "b" "b" "b" "-" "-" "-" "-" "-" "w" "w" "w" "-" "-" "-" "b" "b" "b" "w" "w" "-" "-" "-" "b" "b" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "b" "b" "b" "b" "-" "-" "-" "-" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "b" "b" "b" "b" "-" "-" "-" "-" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "-" "b" "b" "b" "b" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "b" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "w" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "w" "w" "w" "w" "w" "-" "-" "w" "w" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "-" "b" "w" "w" "w" "w" "-" "-" "w" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "-" "b" "b" "b" "b" "b" "-" "-" "b" "b" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "-" "w" "b" "b" "b" "b" "b" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "b" "b" "b" "b" "b" "b" "b" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "b" "b" "w" "w" "w"]} {:width 8, :height 8, :max-index 63, :squares ["-" "b" "b" "b" "b" "b" "b" "b" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "b" "b" "w" "w" "w" "w" "w" "-" "-" "w" "w" "w" "w" "w" "w" "-" "w" "w" "w" "w" "w" "w" "w"]}], :black-moves [37 53 55 44 46 39 62 19 23 52 60 58 21 14 7 4 42 3 41 26 10 1], :white-moves [45 54 63 47 38 31 61 30 15 22 29 51 59 43 20 13 6 5 12 11 50 34 18 2 57 49], :previous-player :white, :white-strategy {:fn #<core$partial$fn__4228 clojure.core$partial$fn__4228@1c7fd41f>}, :black-strategy {:fn #<core$partial$fn__4228 clojure.core$partial$fn__4228@3b77a04f>}, :view [{:frame #<JFrame$Tag$fd407141 seesaw.core.proxy$javax.swing.JFrame$Tag$fd407141[frame0,59,34,610x758,invalid,layout=java.awt.BorderLayout,title=Othello,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,28,610x730,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@7b324585,flags=16777675,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]>, :display-initial-state #<gui$display_initial_state othello.views.gui$display_initial_state@60dce7ea>, :display-move #<gui$display_move othello.views.gui$display_move@fd8294b>, :display-game-over #<gui$display_game_over othello.views.gui$display_game_over@27305e6>, :display-player-error #<gui$display_player_error othello.views.gui$display_player_error@502f1f4c>, :get-move #<gui$get_move othello.views.gui$get_move@75c9e76b>} {:create #<console$create othello.views.console$create@5c3b6c6e>, :display-initial-state #<console$display_initial_state othello.views.console$display_initial_state@75f5fd58>, :display-move #<console$display_move othello.views.console$display_move@306851c7>, :display-game-over #<console$display_game_over othello.views.console$display_game_over@4879f0f2>, :display-player-error #<console$display_player_error othello.views.console$display_player_error@354fc8f0>, :get-move #<console$get_move othello.views.console$get_move@4678a2eb>}], :board {:width 8, :height 8, :max-index 63, :squares ["-" "b" "b" "b" "b" "b" "b" "b" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "-" "b" "w" "w" "w" "w" "w" "-" "b" "w" "w" "w" "w" "w" "w" "-" "w" "w" "w" "w" "w" "w" "w" "-" "w" "w" "w" "w" "w" "w" "w"]}, :current-player :black}
