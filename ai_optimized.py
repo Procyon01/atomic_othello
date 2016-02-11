@@ -78,6 +78,13 @@ def solve():
     for can in candidates:
         print(can)
 
+
+
+# 
+def traverse()
+
+
+
     # check to see if we get points
     for pos in candidates:
       
